@@ -50,10 +50,9 @@ ul {
     list-style: none;
 }
 
-/* ul ul {
-    content: ">";
-    margin-right: 0.5em;
-} */
+p {
+    margin: 0;
+}
 
 li::before {
   content: "***";
