@@ -134,8 +134,24 @@ li:hover {
 
 .project-card {
     background-color: #0d2bc3;
-    outline: dotted white;
+    outline: solid white 0.5px;
     width: fit-content;
-    padding: 2rem;
+    padding: 0 0 2rem 0;
     margin: 2rem;
+}
+
+.project-card:hover {
+    background-color: #041374;
+    filter: brightness(80%);
+}
+
+.project-text {
+    padding-left: 2rem;
+}
+
+.project-img {
+    border: none;
+    width: 360px;
+    height: 100px;
+    object-fit: cover;
 }
