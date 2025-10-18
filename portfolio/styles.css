@@ -197,3 +197,27 @@ li:hover {
     height: 100px;
     object-fit: cover;
 }
+
+.design {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+}
+
+.design-card {
+    outline: solid white 0.5px;
+    max-width: 400px;
+    display: flex;
+    height: 300px;
+}
+
+.design-card:hover {
+    filter: brightness(80%);
+}
+
+.design-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
