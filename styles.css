@@ -29,6 +29,13 @@ footer {
     for when i do different projects
     background-color: #041375;
 } */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 hr {
     border: dotted;
@@ -67,7 +74,6 @@ li::before {
 li:hover {
     background-color: #041374;
 }
-
 .li-indent:hover {
     background-color: #041374;
 }
@@ -112,9 +118,21 @@ li:hover {
     font-size: 6rem;
 }
 
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .hero-deco {
-    font-size: 10rem;
+    font-size: 18rem;
     margin: 0;
+}
+
+.hero-h {
+    font-size: 5rem;
+    margin-bottom: 1rem;
 }
 
 .about-content {
