@@ -22,7 +22,6 @@ nav {
 }
 
 footer {
-    margin-top: 2rem;
     text-align: center;
 }
 
@@ -154,6 +153,7 @@ li:hover {
 }
 
 .footer-links {
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,9 +175,9 @@ li:hover {
     margin: 0 0 2rem 0;
 }
 
-.project-info {
+/* .project-info { */
     /* background-color: aquamarine; */
-}
+/* } */
 
 .project-card {
     /* background-color: #0d2bc3;
@@ -250,7 +250,7 @@ li:hover {
 }
 
 /* FALLING ITEMS */
-@-webkit-keyframes snowflakes-fall {
+/* @-webkit-keyframes snowflakes-fall {
 		0% {
 			top: -10%
 		}
@@ -380,4 +380,4 @@ li:hover {
 		left: 65%;
 		-webkit-animation-delay: 4s, 2.5s;
 		animation-delay: 4s, 2.5s
-	}
+	} */
