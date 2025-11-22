@@ -7,7 +7,10 @@ html {
     color: white;
     font-family: monospace;
     box-sizing: border-box;
-    padding: 0 2rem 2rem 2rem;
+}
+
+.setmargin {
+    margin: 0 2rem 2rem 2rem;
 }
 
 img {
@@ -19,6 +22,10 @@ nav {
     display: flex;
     align-items: center;
     position: sticky;
+	top: 0;
+	background-color: #051DB5;
+	z-index: 50;
+	padding: 0 2rem 0 2rem;
 }
 
 footer {
@@ -164,8 +171,20 @@ li:hover {
     font-size: smaller;
 }
 
+#about {
+	scroll-margin-top: 90px;
+}
+
+#experience {
+	scroll-margin-top: 90px;
+}
+
+#design {
+	scroll-margin-top: 90px;
+}
 
 #projects {
+	scroll-margin-top: 135px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
