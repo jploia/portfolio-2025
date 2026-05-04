@@ -3,10 +3,11 @@
 }
 
 html {
-    background-color:#051DB5;
-    color: white;
+    background-color:#30125b;
+    color: #dca8ff;
     font-family: monospace;
     box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 .setmargin {
@@ -14,7 +15,10 @@ html {
 }
 
 img {
-    border: white 0.5px solid;
+    
+    border: #dca8ff 0.5px solid;
+    border-radius: 2px;
+	object-fit: cover;
 }
 
 nav {
@@ -23,7 +27,8 @@ nav {
     align-items: center;
     position: sticky;
 	top: 0;
-	background-color: #051DB5;
+    background-color:#30125b;
+    color: #dca8ff;
 	z-index: 50;
 	padding: 0 2rem 0 2rem;
 }
@@ -38,18 +43,21 @@ footer {
 } */
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fad8ff;
 }
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fad8ff;
 }
 
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fad8ff;
 }
 
 hr {
-    border: dotted;
+    border: dotted #dca8ff;
 }
 
 a {
@@ -57,15 +65,18 @@ a {
 }
 
 a:link {
-    color: white;
+    color: #dca8ff;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
-    background-color: #041374;
+    background-color: #dca8ff;
+    color:#30125b;
 }
 
 a:visited {
-    /* color: #60c7e7; */
+    /* color: #f53f35; */
     color: white;
 }
 
@@ -78,19 +89,30 @@ p {
 }
 
 li::before {
-  content: "***";
+  content: ">";
   margin-right: 0.5em;
 }
 
 li:hover {
-    background-color: #041374;
+    background-color: #dca8ff;
+    color:#30125b;
+    /* background-color: #A6ED00;
+    color: #011212; */
 }
+
 .li-indent:hover {
-    background-color: #041374;
+    background-color: #dca8ff;
+    color:#30125b;
+    /* background-color: #A6ED00;
+    color: #011212; */
+}
+
+.special-text {
+    font-family: monospace;
 }
 
 .resume-button {
-    outline: white solid 0.5px;
+    outline: #dca8ff solid 0.5px;
     padding: 0.75rem;
     border-radius: 2px;
     text-decoration: none;
@@ -110,11 +132,12 @@ li:hover {
 
 .nav-icon {
     text-decoration: none;
-    color: white;
+    color: #dca8ff;
 }
 
 .nav-icon:hover {
-    background-color: #041374;
+    background-color: #dca8ff;
+    color:#30125b;
 }
 
 .nav-icon:visited {
@@ -123,17 +146,35 @@ li:hover {
 
 .name {
     background-color: white;
-    color: #051DB5;
+    color:#011212;
     display: inline-block;
     padding: 0 1rem;
     font-size: 6rem;
 }
 
 .hero {
-    height: 100vh;
+    height: 95vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+	align-items: center;
+	gap: 20rem;
+}
+
+.hero-txt-contain {
+	display: flex;
+}
+
+.hero-img-contain {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.hero-small-img {
+	display: flex;
+	max-width: 400px;
+	flex-direction: column;
+	gap: 0.5rem;
 }
 
 .hero-deco {
@@ -204,8 +245,9 @@ li:hover {
     max-width: 300px;
     display: flex; */
     /* padding: 0 60px 60px 0; */
-    background-color: #0d2bc3;
-    outline: solid white 0.5px;
+    background-color:#30125b;
+    outline: solid #fad8ff 0.5px;
+    border-radius: 2px;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -217,7 +259,8 @@ li:hover {
 }
 
 .project-card:hover {
-    background-color: #041374;
+    background-color: #dca8ff;
+    color:#30125b;
     filter: brightness(80%);
 }
 
